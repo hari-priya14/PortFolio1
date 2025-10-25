@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fafafa;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background: #e3f2ff;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #0077cc;
+}
+
+nav a {
+    text-decoration: none;
+    color: #004b8d;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d1006c;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+h2 {
+    color: #003d73;
+    margin-bottom: 15px;
+}
+
+.info-cards, .skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card, .skills-box span {
+    background: #ffffff;
+    border: 2px solid #007bff;
+    border-radius: 6px;
+    padding: 10px;
+    min-width: 180px;
+    text-align: center;
+}
+
+.content-box {
+    border: 2px solid #007bff;
+    padding: 15px;
+    border-radius: 10px;
+    background: #ffffff;
+    margin: 15px 0;
+}
+
+/* ✅ Download Resume Button Style */
+.download-btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 18px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
